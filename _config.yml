@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Hold 11 - DTU SWT 2016
+email: anders@wiberg.tech
+description: > #
+  Denne side er for hold 11, som læser Softwareteknologi på DTU. Alle rettigheder forbeholdes til os der har lavet siden.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://wiberg.tech" # the base hostname & protocol for your site
+twitter_username: AndersWiberg
+github_username:  awo-dev
+
+# Build settings
+markdown: kramdown
