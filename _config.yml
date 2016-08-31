@@ -10,8 +10,8 @@ title: Hold 11 - DTU SWT 2016
 email: anders@wiberg.tech
 description: > #
   Denne side er for hold 11, som læser Softwareteknologi på DTU. Alle rettigheder forbeholdes til os der har lavet siden.
-baseurl: "/hold11" # the subpath of your site, e.g. /blog
-url: "http://hold11.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://dtu.wiberg.tech" # the base hostname & protocol for your site
 twitter_username: AndersWiberg
 github_username:  awo-dev
 
