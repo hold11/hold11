@@ -13,7 +13,7 @@ description: > #
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dtu.wiberg.tech" # the base hostname & protocol for your site
 twitter_username: AndersWiberg
-github_username:  awo-dev
+github_username:  hold11
 
 # Build settings
 markdown: kramdown
