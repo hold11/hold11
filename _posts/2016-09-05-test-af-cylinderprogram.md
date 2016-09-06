@@ -113,3 +113,11 @@ Der er visse faldgrupper. Programmet viste sig at være ustabilt når man gav de
 Vi så under negativtesten at der ikke var nogen exception handling.
 
 Til gengæld bestod programmet i vores positivtest, og vi fik et svar som forventet.
+
+# Kravsprioritering
+
+Der er fem hovedkategorier, som følger FURPS+ model. Kategorierne er opdelt med en specifik nummerering.
+Hvert krav er unikt identificeret efter formen [Kravstype]-[Prioritet][Nummerering indenfor kravstypegruppen], hvor ‘Kravstype’ henviser til afsnittet, som det hører under.
+
+* A: Kravene i gruppe A henviser til de krav, som er obligatoriske.
+* B: Gruppe B indeholder de krav, som kan opfyldes for at kunne optimere yderligere. 
