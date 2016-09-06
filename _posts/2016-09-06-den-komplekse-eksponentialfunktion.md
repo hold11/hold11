@@ -100,18 +100,53 @@ $$  z_{1} \cdot z_{2} = r_{1} e^{i\alpha_{1}} \cdot r_{2} e^{i\alpha_{2}} $$
 
   $$ = r_{1} \cdot r_{2} \cdot e^{i(\alpha_{1}+\alpha_{2})} $$
 
-  # fsædfka
+# fsædfka
 
-  $$ \|\frac{z_{1}}{z_{2}}\| = \|\frac{z_{1}}{z_{2}}\| \cdot \|\frac{z_{2}}{z_{2}\|} = \frac{\|\frac{z_{1}}{z_{2}}\| \cdot \| z_{2}} \| { \|z_{2}\|} $$
+$$ \|\frac{z_{1}}{z_{2}}\| = \|\frac{z_{1}}{z_{2}}\| \cdot \|\frac{z_{2}}{z_{2}\|} = \frac{\|\frac{z_{1}}{z_{2}}\| \cdot \| z_{2}} \| { \|z_{2}\|} $$
 
-  $$ = \frac{\|\frac{z_{1}}{z_{2}} \cdot z_{2}\|}{z_{2}} = \frac{\|z_{1}\|}{\|z_{2}\|} $$
+$$ = \frac{\|\frac{z_{1}}{z_{2}} \cdot z_{2}\|}{z_{2}} = \frac{\|z_{1}\|}{\|z_{2}\|} $$
 
-  $$ arg(\frac{z_{1}}{z_{2}}) = arg(\frac{z_{1}}{z_{2}}) + arg(z_{2}) - arg(z_{2}) $$
+$$ arg(\frac{z_{1}}{z_{2}}) = arg(\frac{z_{1}}{z_{2}}) + arg(z_{2}) - arg(z_{2}) $$
 
-  $$ arg(\frac{z_{1}}{z_{2}}) -arg(z_{2}) $$
+$$ arg(\frac{z_{1}}{z_{2}}) -arg(z_{2}) $$
 
-  $$ arg(z_{1}) - arg(z_{2}) $$
+$$ arg(z_{1}) - arg(z_{2}) $$
 
-  # Skriv eks fortsat her (billede på tlf)
+# Skriv eks fortsat her (billede på tlf)
 
-  Resten kommer senere, jeg kan ikke følge med.
+Resten kommer senere, jeg kan ikke følge med.
+
+# Jeg prøver igen
+
+## Eulers formel:
+
+$$ cos(t) + i \cdot sin(t) = e^{i \cdot t} $$
+
+Vi skifter fortegn på $$ t $$ fordi det åbenbart er smart....
+
+$$ cos(t) - i \cdot sin(t) = e^{- i \cdot t} $$
+
+$$ "+": 2\cdot cos(t) = e^{it} + e^{-it} $$
+
+// i en box:
+
+$$ cos(t)=\frac{e^{it} + e^{-it}}{2} $$
+
+$$ "-": 2\cdot cos(t) = e^{it} - e^{-it} $$
+
+// i en box:
+
+$$ cos(t)=\frac{e^{it} - e^{-it}}{2} $$
+
+//end of box
+
+$$ \int{cos(3t)\cdot sin(8t) dt} = \int{\frac{e^{i3t}+e^{-i3t}}{2} \cdot \frac{e^{i3t}-e^{-i3t}}{2i} dt} $$
+
+$$ \int{\frac{e^{i11t}-e^{-i11t}+e^{i5t}-e^{-i5t}}{2\cdot 2i} dt} $$
+
+$$ = \frac{1}{2} \int{\Big (\frac{e^{i11t}-e^{-i11t}}{2i} + \frac{e^{i5t}-e^{-i5t}}{2i}\Big) dt} $$
+
+$$ = \frac{1}{2} \int{\big(sin(11t) + sin(5t) \big) dt} $$
+
+$$ = \frac{1}{2} \big(-\frac{1}{11}) - \frac{1}{5} \cdot  $$
+fuck 
