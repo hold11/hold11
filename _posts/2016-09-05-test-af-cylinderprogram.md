@@ -1,6 +1,6 @@
 ---
 layout: post
-author: 'Anders, Troels og Iman'
+author: Gruppe 11B (Anders, Troels og Iman)
 title: Test af Cylinderprogram
 date: '2016-08-30 08:00:00 +0200'
 categories: versionsstyring
