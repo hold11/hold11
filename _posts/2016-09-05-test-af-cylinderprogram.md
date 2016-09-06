@@ -106,6 +106,24 @@ Rumfanget af cylinder: 9223372036854775807
 
 Vi ser her, at vi får det samme resultat i begge tilfælde. Dvs. at overflow bliver blokeret, og vi får blot outputtet det højeste tal den kan klare (de 2 resultater er ens).
 
+## 2.3 Test af negative tal
+
+Vi tester ved at putte negative tal ind i programmet:
+
+```
+Indtast højde af cylinder
+-5
+Indtast venligst et positivt tal!
+5
+Indtast radius af cylinder
+-5
+Indtast venligst et positivt tal!
+5
+Rumfanget af cylinder: 393
+```
+
+Altså tager programmet imod negative tal, og går i ring indtil den får et positivt tal.
+
 # 3 Konklusion
 
 Der er visse faldgrupper. Programmet viste sig at være ustabilt når man gav den et input, som den ikke forventede (bogstaver, matematiske operationer).
@@ -120,4 +138,4 @@ Der er fem hovedkategorier, som følger FURPS+ model. Kategorierne er opdelt med
 Hvert krav er unikt identificeret efter formen [Kravstype]-[Prioritet][Nummerering indenfor kravstypegruppen], hvor ‘Kravstype’ henviser til afsnittet, som det hører under.
 
 * A: Kravene i gruppe A henviser til de krav, som er obligatoriske.
-* B: Gruppe B indeholder de krav, som kan opfyldes for at kunne optimere yderligere. 
+* B: Gruppe B indeholder de krav, som kan opfyldes for at kunne optimere yderligere.
