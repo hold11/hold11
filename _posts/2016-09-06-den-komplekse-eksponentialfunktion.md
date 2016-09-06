@@ -149,4 +149,4 @@ $$ = \frac{1}{2} \int{\Big (\frac{e^{i11t}-e^{-i11t}}{2i} + \frac{e^{i5t}-e^{-i5
 $$ = \frac{1}{2} \int{\big(sin(11t) + sin(5t) \big) dt} $$
 
 $$ = \frac{1}{2} \big(-\frac{1}{11}) - \frac{1}{5} \cdot  $$
-fuck 
+fuck - sidst på tavle 5
