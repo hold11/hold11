@@ -2,7 +2,7 @@
 layout: post
 title: Kravsspecifikationer
 author: Anders Wiberg Olsen
-date: '2016-08-30 13:00:00 +0200'
+date: '2016-09-06 15:00:00 +0200'
 categories: UML
 ---
 
