@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Limitations of Propositional Logic
+title: WK02 - Limitations of Propositional Logic
 date: '2016-08-31 15:31:00 +0200'
 author: Anders Wiberg Olsen
 categories: discrete_math
@@ -119,7 +119,7 @@ $$ (P \Rightarrow R) \wedge (Q \Rightarrow R) $$
 
 1. $$ P \Rightarrow (Q \vee R) $$
 
-2. $$ R or S $$
+2. $$ R \vee S $$
 
 3. $$ S => \neg Q $$
 

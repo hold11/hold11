@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to discrete mathematics.
+title: WK01 - Introduction to discrete mathematics.
 date: '2016-08-31 15:31:00 +0200'
 author: Anders Wiberg Olsen
 categories: discrete_math
