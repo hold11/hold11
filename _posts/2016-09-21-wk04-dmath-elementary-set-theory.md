@@ -71,17 +71,19 @@ the _cardinality_ of a set $$ S $$ (= its number of elements if finite).
 
 ## 3.2. In our previous examples:
 
-$$ \|\{1, 2 \}\| = \|\{1, 2, 1 \}\| = \|\{x \in \mathbb{N} \| 1 \le x \le 2 \}\| = 2$$
+$$ |\{1, 2 \}| = |\{1, 2, 1 \}| = |\{x \in \mathbb{N} | 1 \le x \le 2 \}| = 2$$
 
-$$ \|\{1, \{1, 2\}, \emptyset \}, \{\{\emptyset \}\} \| = 4 $$
+$$ |\{1, \{1, 2\}, \emptyset \}, \{\{\emptyset \}\} | = 4 $$
 
 ## 3.3 Infinite cardinalities
 
-$$ \|\mathbb{N} = ?\| $$ (countably infinite)
+$$ | \mathbb{N} = ? | $$
+(countably infinite)
 
-$$ \|\mathbb{R} = ?\| $$ (uncountably infinite)
+$$ | \mathbb{R} = ? | $$
+(uncountably infinite)
 
-$$\|\mathbb{N}\| = \aleph $$
+$$|\mathbb{N}| = \aleph $$
 
 # 4. Basic relations among sets
 
@@ -124,3 +126,43 @@ $$ A = \big\{\emptyset , \{1, 1\} \big\}, \quad \big\{\emptyset , \{1\}, 2\big\}
 Then:
 
 $$ A \neq B, \quad A \not\in B, \quad B \not\in A, \quad A \subseteq B, \quad B \not\subseteq A $$
+
+$$ A \subseteq B $$ if <u>all</u> elements of $$ A $$ is in the subset of $$ B $$.
+
+$$ A \not\subseteq B $$ if <u>only some</u> of the elements of $$ A $$ is in the subset of $$ B $$.
+
+# 5. Power Set
+
+$$ P(a) $$: Set of all subsets $$ A $$
+
+## 5.1. examples
+
+$$ P\big(\{1, 2, 3\} \big) = \big\{\emptyset , \{1\}, \{2\}, \{3\}, \{1, 2\}, \{1, 3\}, \{2, 3\}, \{1, 2, 3\} \big\} $$
+
+$$ P(\emptyset ) = \{ \emptyset \} $$
+
+If $$ \|A\| $$ is finite:
+
+$$ |P(A) = 2^{|A|} | $$
+
+# 6. Set Operations
+
+In the following: $$ A, B $$ sets with $$ A, B \subseteq M $$
+
+__Intersection:__
+
+$$ A \cap B = \{x \; |\;  x \in A \; \text{and} \; x \in B \} $$
+
+`Billede fra slide 2.1, side 8 her.`
+
+__Union:__
+
+$$ A \cup B = \{x \;|\; x \in A \; \text{or}\; x \in B \} $$
+
+__Difference__:
+
+$$ A \ B = \{x \; |\;  x \in A\;  \text{and}\;  x \not\in B \}  $$
+
+__Complement__:
+
+$$ \overline{A} = \{x \; |\;  x \in M\;  \text{and}\;  x \not\in A\}  $$
