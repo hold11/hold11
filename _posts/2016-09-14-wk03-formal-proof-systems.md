@@ -332,7 +332,7 @@ Assume $$ A $$ and $$ \neg B $$, deduce contradiction.
 
 #### 4.3.1 Example
 
-__CLaim 3__:
+__Claim 3__:
 
 $$ \sqrt{2} is irrational $$
 
