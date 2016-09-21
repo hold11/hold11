@@ -8,7 +8,12 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 /**
  * Basic styling
