@@ -73,3 +73,31 @@ $$ B \backslash C = \{4, 8 \} $$
 Dvs.:
 
 $$ A \cup (B \backslash C) = \{1, 2, 3, 4, 5, 8\} $$
+
+<hr/>
+
+# Opgave 2
+
+Bevis at
+
+$$ A \backslash(B \cup C) = (A \backslash B) \cap (A \backslash C). $$
+
+```Opgave kommer når jeg lige har fattet det. Lige et øjeblik.```
+
+<hr />
+
+# Opgave 3
+
+Lad $$ A \ne \emptyset $$ og $$ A \cup B = A \cup C $$
+
+## 3.a:
+
+_Kan man heraf slutte, at $$ B = C $$?_
+
+Nej, fordi $$ \cup $$ angiver, at det en værdi kun skal være i <u>en</u> af værdierne.
+
+## 3.b:
+
+_Hvis der <b>samtidig</b> gælder, at $$ A \cap B = A \cap C $$, kan man så slutte, at $$ B = C $$?_
+
+Det kan man til gengæld godt; siden $$ \cap $$ betyder, at værdierne skal være i <u>både</u> den ene og den anden.
