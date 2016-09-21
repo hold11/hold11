@@ -34,14 +34,14 @@ $$ \{x \in M \| P(x) \} $$
 
 with a __universe__ $$ M $$ and a __predicate__ $$ M $$.
 
-<br/><br/>
+<br/>
 __The empty set__
 
 We write:
 
 $$ \emptyset \quad \text{or} \quad \{\} $$
 
-<br/><br/>
+<br/>
 
 __Note: Sets can contain sets:__
 
