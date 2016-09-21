@@ -54,12 +54,22 @@ Så dvs:
 
 $$ \overline{C \cap D} = \{1, 3, 4, 5, 6, 7, 8, 9, 10 \}  $$
 
-## 1.e: $$ (A \cup B) \ C $$
+## 1.e: $$ (A \cup B) \backslash C $$
 
 Jeg starter med parentesen:
 
 $$ A \cup B = \{1, 2, 3, 4, 5, 8 \} $$
 
-$$ A \ B $$ betyder mængden af de elementer i $$ A $$, som <u>ikke</u> er i $$ B $$. Dvs.:
+$$ A \backslash B $$ betyder mængden af de elementer i $$ A $$, som <u>ikke</u> er i $$ B $$. Dvs.:
 
-$$ (A \cup B) \ C = \{4, 8 \} $$
+$$ (A \cup B) \backslash C = \{4, 8 \} $$
+
+## 1.f: $$ A \cup (B \backslash C) $$
+
+Jeg starter med parentesen:
+
+$$ B \backslash C = \{4, 8 \} $$
+
+Dvs.:
+
+$$ A \cup (B \backslash C) = \{1, 2, 3, 4, 5, 8\} $$
