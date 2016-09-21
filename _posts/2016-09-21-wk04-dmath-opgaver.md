@@ -53,3 +53,13 @@ $$ C \cap D = \{2 \} $$
 Så dvs:
 
 $$ \overline{C \cap D} = \{1, 3, 4, 5, 6, 7, 8, 9, 10 \}  $$
+
+## 1.e: $$ (A \cup B) \ C $$
+
+Jeg starter med parentesen:
+
+$$ A \cup B = \{1, 2, 3, 4, 5, 8 \} $$
+
+$$ A \ B $$ betyder mængden af de elementer i $$ A $$, som <u>ikke</u> er i $$ B $$. Dvs.:
+
+$$ (A \cup B) \ C = \{4, 8 \} $$
