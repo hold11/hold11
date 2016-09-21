@@ -82,7 +82,7 @@ Bevis at
 
 $$ A \backslash(B \cup C) = (A \backslash B) \cap (A \backslash C). $$
 
-```Opgave kommer når jeg lige har fattet det. Lige et øjeblik.```
+`Opgave kommer når jeg lige har fattet det. Lige et øjeblik.`
 
 <hr />
 
@@ -101,3 +101,23 @@ Nej, fordi $$ \cup $$ angiver, at det en værdi kun skal være i <u>en</u> af v�
 _Hvis der <b>samtidig</b> gælder, at $$ A \cap B = A \cap C $$, kan man så slutte, at $$ B = C $$?_
 
 Det kan man til gengæld godt; siden $$ \cap $$ betyder, at værdierne skal være i <u>både</u> den ene og den anden.
+
+<hr />
+
+# Opgave 4
+
+Lad $$ A, C $$ og $$ C $$ være delmængde af en mængde $$ M $$. Undersøg om der gælder:
+
+$$ A \cup (B \backslash C) = (A \cup B) \backslash (A \cup C). $$
+
+```Kommer senere```
+
+<hr/>
+
+# Opgave 5
+
+Lad $$ \|A\| $$ betegne antallet af elementer i en mængde $$ A $$. Vis at
+
+$$ \|A \cup B\| = \|A\| + \|B\| - \|A \cap B\|. $$
+
+```Kommer senere```
