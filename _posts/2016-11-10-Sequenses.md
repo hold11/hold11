@@ -95,3 +95,9 @@ $$ = 1 $$
 Therefore:
 
 $$ \sum_{n=0}^{\infty}{x^n} = \frac{1}{G(x)} = \frac{1}{1-x}  $$
+
+# 3.5
+
+<center>
+<img src="/img/wk10-3.5.png" />
+</center>
